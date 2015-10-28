@@ -1,0 +1,150 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 1rem;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+	width: 100%;
+}
+
+/*****************************
+       Navigation
+*****************************/
+
+header {
+	height: 70px;
+	line-height: 70px;
+	position: fixed;
+	z-index: 9999;
+	background: #fff;
+	width: 100%;
+}
+
+#logo {
+	text-decoration: none;
+	font-size: 2em;
+	font-weight: bold;
+	color: #222; 
+	width: 1.625rem;
+}
+
+nav {
+	float: right;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 25px;
+}
+
+nav li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #222;
+}
+
+nav li a.active {
+	color: #4C5058;
+	font-weight: 500;
+}
+
+/*****************************
+       Hero img
+*****************************/
+
+section.hero-img {
+	background: url("../img/computer-1.jpeg") no-repeat center bottom;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 45.938rem;
+  overflow: auto;
+}
+
+.content {
+	text-align: center;
+	color: #fff;
+}
+
+section.hero-img h1 {
+	margin-top: 17.5rem;
+	font-size: 3.175rem;
+}
+
+section.hero-img h1, section.hero-img p  {
+	font-weight: 300;
+	margin-bottom: 0;
+}
+
+section.hero-img p {
+	margin-top: 1.25rem;
+  font-size: 1.563rem;
+  font-weight: 100;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 1.563rem;
+}
+
+button {
+  width: 9.688rem;
+  background-color: #f15a29;
+  border-color: #f15a29;
+  text-shadow: none;
+  border-style: none;
+  border-radius: 4px;
+  padding: 1rem 1.5rem;
+  color: white;
+  font-size: 1.125rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
